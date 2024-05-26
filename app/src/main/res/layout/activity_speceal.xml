@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecealActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/specealfoto1"
+        android:contentDescription="@string/specealscrol">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textSp1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="ЛУЧШИЕ ЦИТАТЫ ЭНДРЮ ТЕЙТА"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textSize = "30sp"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textSp2"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/firstdesc"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp3"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Я становлюсь мудрее с каждым шрамом.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp4"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вам дан еще один день жизни . Как вы будете его использовать? Будете ли вы ждать до завтра, как делали это годами, или решите, что сегодня — день, когда вы посвятите себя совершенству?Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp5"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ваше будущее – это результат ваших ежедневных действий. Вас определяет то, что вы делаете сегодня. Ленивый сейчас, неудачник позже. Принимайтесь за работу.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp6"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Временное удовлетворение от отказа от курения перевешивается вечными страданиями быть никем.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp7"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Моя непревзойденная проницательность в сочетании с явной неутомимостью делает меня опасным противником в любой сфере человеческой деятельности.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp8"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ваш разум должен быть сильнее ваших чувств.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp9"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Нет света без тьмы.Нет радости без боли.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp10"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если неудача делает вас сильнее,вы никогда не сможете проиграть.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp11"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Воспользовались ли вы преимуществами тех немногих вещей, которые вы действительно контролируете? Или вы все еще надеетесь, что вам повезет?Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp12"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Человек без видения своего будущего всегда возвращается к своему прошлому.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp13"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ленивые люди делают немного работы и чувствуют, что должны побеждать. Победители работают изо всех сил и все равно беспокоятся, если они ленивы.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp14"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Чем усерднее вы работаете,тем важнее вы становитесь.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp15"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Реальность конструируется самостоятельно. В моем мире я полностью контролирую каждую секунду.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp16"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если вы хотите счастливого завтра,вам нужны истины, которые причиняют боль сегодня.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp17"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Стресс – единственное состояние, при котором ваше тело и разум способны творить чудеса.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp18"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Большинство людей видят у других людей то, чего они хотят, и не делают вторую половину. Они не пытаются понять, как они получили эту вещь.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp19"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Интеллект — ничто без энергии. Идеи — ничто без энергии. Побеждают энергичные люди.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp20"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Отвергайте слабость в любой форме.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp21"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Не слушайте советов людей, живущих жизнью, которой вы не хотите жить.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp22"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ваше мышление похоже на мышцу: чем больше вы его тренируете, тем сильнее оно становится.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp23"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Страдай, потому что ты слаб, или страдай, чтобы стать сильным, но страданий не избежать.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp24"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вам нужно понять, что в этом мире есть целая куча людей, которые делают удивительные вещи, которых вы не делаете. И это должно вас разозлить.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp25"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="У вас есть неограниченное количество работы сегодня. Каждая потраченная вами секунда — это признание того, что на самом деле вы недостаточно сильно этого хотите.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp26"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подумайте обо всех удивительных вещах, которых вы могли бы достичь к настоящему моменту, если бы не были ужасно ленивы . Представьте себе, сколько времени вы потратили впустую, каждую возможность, которую упустили, все хорошие советы, которые вы высокомерно проигнорировали.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp27"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Они хотят разбогатеть, но у них нет плана разбогатеть! А надежда и план – это две разные вещи.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp28"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/firstdesc"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp29"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если бы вы действительно хотели денег, вы бы не смогли уснуть, пока они у вас не появятся.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp30"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Стоимость — враг бедняка, поэтому бедняки стараются экономить деньги. Время — враг богатого человека, поэтому богатые стараются его экономить.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp31"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Уровень стресса, который вы можете выдержать, оставаясь при этом эффективным, напрямую зависит от уровня успеха , которого вы добьетесь.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+            <TextView
+                android:id="@+id/textSp32"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Депрессия не реальна. Чувствовать депрессию – это реально. Итак, вы можете чувствовать депрессию, но вы чувствуете депрессию, и это естественный, биологический, эволюционный стимул для вас, чтобы что-то изменить в своей жизни . Это ваш собственный разум говорит вам: «Вы недовольны X». Если бы я сегодня попал в тюрьму, у меня была бы депрессия, потому что я в тюрьме. Я не подхватила депрессию, у меня нет заболевания, я просто расстроена своим положением.Эндрю Тейт"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

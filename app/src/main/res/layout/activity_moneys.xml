@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoneysActivity">
+
+    <ScrollView
+        android:id="@+id/scrollmoney"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/finalmoney"
+        android:contentDescription="@string/moneyscrol" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textV"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="ФИНАНСЫ"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize = "40sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="@string/money1" />
+            <ImageView
+                android:id="@+id/imageV"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/bugatti1" />
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor = "@color/white"
+                android:textSize = "25sp"
+                android:text="0 рублей" />
+            <EditText
+                android:id="@+id/editText_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите сумму денег в рублях, далее нажмите на нужную кнопку. Заработай уже наконец на свой Бугатти!"
+                android:layout_marginBottom="15dp"
+                android:padding="8sp"
+                android:textColor="@color/white"
+                android:singleLine="false"
+                android:textColorHint="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                app:cornerRadius = "50dp">
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:onClick="Chelendg"
+                    android:textSize="10sp"
+                    tools:ignore="TextSizeCheck"
+                    android:text="Потратил" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:onClick="Chelendg"
+                    android:textSize="10dp"
+                    tools:ignore="TextSizeCheck"
+                    android:text="Заработал" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'Деньги решат все ваши проблемы. Если бы деньги были такими плохими и не приносили счастья, все миллиардеры раздавали бы их. Проснись.' Эндрю Тейт" />
+            <ImageView
+                android:id="@+id/imageV1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/moneyfoto1"/>
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'Ты можешь стать богатым, ты можешь стать сильным, ты можешь заботиться о своих близких и наслаждаться тем, что это будет очень сложно.' Эндрю Тейт" />
+            <ImageView
+                android:id="@+id/imageV2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/moneyfoto2"/>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'Не думай о том, как мне стать мультимиллионером. Подумай о своих краткосрочных целях. Убедись, что твоя мать работает меньше. Купи красивую одежду. Переезжай в квартиру получше.' Эндрю Тейт" />
+            <ImageView
+                android:id="@+id/imageV3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/moneyfoto3"/>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor = "@color/white"
+                android:textSize = "17sp"
+                android:text="'Мне не нужна мотивация, потому что я дисциплинированный человек. Если я выделяю энное количество времени на что-то, я собираюсь это сделать.' Эндрю Тейт" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
